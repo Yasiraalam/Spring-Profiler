@@ -1,0 +1,23 @@
+
+server:
+  port: 8080
+spring:
+  application:
+    name: Spring-Profiler
+  jmx:
+    enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+
+logging:
+  level:
+    org.springframework: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
