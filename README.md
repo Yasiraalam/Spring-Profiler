@@ -15,18 +15,4 @@ This project is a **Java Spring Boot** application designed to monitor **JVM-lev
 
 ---
 
-## 📁 Project Structure
-spring-profiler/
-├── src/
-│ └── main/
-│ ├── java/
-│ │ └── com/yasir/springprofiler/
-│ │ ├── SpringProfilerApplication.java # Main Spring Boot class
-│ │ ├── controller/
-│ │ │ └── JvmMetricsController.java # REST endpoints for JVM metrics
-│ │ └── websocket/
-│ │ └── MetricsWebSocketHandler.java # WebSocket handler for real-time metrics
-│ └── resources/
-│ └── application.yml # Application configuration
-└── pom.xml # Maven dependencies
 
